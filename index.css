@@ -84,3 +84,59 @@ main {
 	padding-top: 14px;
   border-top: 1px solid #e2e2e2;
 }
+
+.image-container {
+	margin-bottom: 7px;
+	display: block;
+}
+
+img {
+	width: 1125px;
+}
+
+figcaption {
+	max-width: 615px;
+	font-size: 0.875rem;
+	line-height: 1.125rem;
+	font-weight: 300;
+	margin-bottom: 45px;
+	color: #666;
+}
+
+.credit {
+	font-size: 0.6975rem;
+	color: #999;
+}
+
+.story-body {
+	width: 705px;
+}
+
+.story-body-text {
+	width: 570px;
+	margin-left: 75px;
+	margin-bottom: 17px;
+	line-height: 1.625rem;
+	font-size: 1.0625rem;
+}
+
+strong {
+	font-weight: 700;
+}
+
+.interactive-headline {
+	font-size: 1.25rem;
+	font-weight: 700;
+	margin-bottom: 3px;
+}
+
+#theory-of-inflation {
+	border-top: 1px solid #e2e2e2;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-top: 15px;
+}
+.interactive {
+	line-height: 1.125rem;
+	font-size: 0.875rem;
+}

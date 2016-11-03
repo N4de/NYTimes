@@ -91,7 +91,8 @@ main {
 }
 
 img {
-	width: 1125px;
+	height: auto;
+	max-width: 100%;
 }
 
 figcaption {
@@ -135,8 +136,67 @@ strong {
 	margin-top: 15px;
 	margin-bottom: 15px;
 	padding-top: 15px;
+	width: 945px;
+	clear: left;
+	position: relative;
 }
 .interactive {
 	line-height: 1.125rem;
 	font-size: 0.875rem;
+	width: 945px;
+}
+
+
+.little-img-text {
+	font-family: nyt-franklin,arial,helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #000000;
+  position: inherit;
+}
+
+.image-text-container {
+	position: absolute;
+	width: 228px;
+}
+
+#g-1 {
+	top: 37.8264%;
+  left: 0.0436%;
+}
+
+#g-2 {
+	top: 37.8264%;
+  left: 25.5619%;
+}
+
+#g-3 {
+	top: 37.8264%;
+  left: 51.0800%;
+}
+
+#g-4 {
+  top: 37.8264%;
+  left: 76.5982%;
+}
+
+#g-5 {
+	top: 78.4375%;
+  left: 0.0436%;
+}
+
+#g-6 {
+	top: 78.4375%;
+  left: 25.5619%;
+}
+
+#g-7 {
+	top: 78.4375%;
+	left: 51.0800%;
+}
+
+#g-8 {
+	top: 78.4375%;
+	left: 76.5982%;
 }

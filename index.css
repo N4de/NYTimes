@@ -139,6 +139,7 @@ strong {
 	width: 945px;
 	clear: left;
 	position: relative;
+	border-bottom: 1px solid #e2e2e2;
 }
 .interactive {
 	line-height: 1.125rem;
@@ -200,3 +201,4 @@ strong {
 	top: 78.4375%;
 	left: 76.5982%;
 }
+

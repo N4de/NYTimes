@@ -1,7 +1,6 @@
 #main-header {
 	position: fixed;
 	margin-left: 30px;
-	background-color: red;
 	min-width: 315px;
   top: 0;
   left: 0;
@@ -12,15 +11,13 @@
 }
 
 body {
-	font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;
+	font-family: "cheltenham",georgia,"times new roman",times,serif;
   color: #333;
-  background-color: #fff;
 }
 
 #sidebar {
 	width: 30px;
 	position: fixed;
-	background-color: blue;
 	height: 100%;
 }
 
@@ -30,7 +27,6 @@ body {
   overflow: hidden;
   z-index: 1000000030;
   border-top: 1px solid #ccc;
-  background-color: yellow;
   margin-left: 30px;
 }
 
@@ -42,7 +38,7 @@ main {
 	width: 1125px;
 	margin-right: 113px;
 	margin-left: 113px;
-	background-color: pink;
+	margin-bottom: 20px;
 }
 
 #article-header {
@@ -107,6 +103,11 @@ figcaption {
 .credit {
 	font-size: 0.6975rem;
 	color: #999;
+	line-height: 1.5;
+}
+
+.credit-container {
+	
 }
 
 .story-body {
@@ -202,3 +203,102 @@ strong {
 	left: 76.5982%;
 }
 
+.video-container {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.image {
+	margin-top: 45px;
+}
+
+#bicep2 {
+	margin-bottom: 45px;
+}
+
+.story-footer {
+	width: 570px;
+	margin-left: 75px;
+	margin-bottom: 20px;
+}
+
+.story-footer-links a {
+	color: #999;
+}
+
+.little-line {
+	  width: 60px;
+    content: '';
+    display: inline-block;
+    height: 1px;
+    margin: 0 0 13px 0;
+    background-color: #000;
+}
+
+.pipe {
+	color: #ccc;
+}
+
+.story-print-citation {
+	font-size: 0.6875rem;
+	line-height: 0.9375rem;
+	font-weight: 300;
+	font-style: normal;
+	font-family: "nyt-franklin",arial,helvetica,sans-serif;
+	color: #999;
+}
+
+#whats-next {
+	margin-bottom: 20px;
+}
+
+#whats-next section {
+	width: auto;
+}
+
+#whats-next header {
+	padding: 9px 0 13px 0;
+}
+
+.other-stories {
+	margin-bottom: 20px;
+	border-top: 1px solid #ccc;
+	padding-top: 7px;
+	margin: 0 auto 35px auto;
+	padding: 0;
+}
+
+.section-heading {
+	font-size: 17px;
+  font-size: 1.0625rem;
+  line-height: 17px;
+  line-height: 1.0625rem;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+  float: left;
+}
+
+.user-action {
+	font-size: 11px;
+  font-size: 0.6875rem;
+  line-height: 11px;
+  line-height: 0.6875rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+  float: right;
+  margin: 5px 0 0 0;
+}
+
+.user-action a:link {
+	color: #6288a5;
+}
+
+h2 a:link {
+	color: #000;
+}
+
+a:link {
+	text-decoration: none;
+}

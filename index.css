@@ -8,7 +8,48 @@
   z-index: 1000000090;
   height: 47px;
   border-bottom: 1px solid #CCCCCC;
+  background-color: #fff;
 }
+
+.header-left-buttons {
+	position: relative;
+	left: -15px;
+	margin-top: 8px;
+}
+
+.sections-button {
+	box-sizing: border-box;
+	padding: 7px 9px;
+	border-radius: 3px;
+	height: 30px;
+	border-bottom-color: #cecece;
+	background-color: #fff;
+	box-shadow: 0 3px 2px 0 rgba(0,0,0,0.06),inset -1px -1px 1px 0 rgba(0,0,0,0.02);
+	margin-right: 6px;
+}
+
+.button {
+	
+}
+
+.sprite-icon {
+	background-repeat: no-repeat;
+	background-image: url(https://a1.nyt.com/assets/article/20161123-103326/images/sprite/sprite-no-repeat.svg);
+	background-position: -443px -217px;
+	width: 16px;
+	height: 16px;
+	margin-top: -1px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.icon {
+	display: inline-block;
+  line-height: 0;
+  vertical-align: middle;
+  font-style: normal;
+}
+
 
 body {
 	font-family: "cheltenham",georgia,"times new roman",times,serif;
@@ -286,7 +327,6 @@ strong {
 }
 
 .user-action {
-	font-size: 11px;
   font-size: 0.6875rem;
   line-height: 11px;
   line-height: 0.6875rem;
@@ -297,7 +337,7 @@ strong {
   margin: 5px 0 0 0;
 }
 
-.user-action a:link {
+#whats-next .user-action a:link {
 	color: #6288a5;
 }
 
@@ -332,16 +372,17 @@ a:link {
 li {
 	width: 210px;
 	display: inline-block;
-	margin: 0 10px;
 	vertical-align: text-top;
 	margin-left: 37px;
 	height: 218px;
+	margin-bottom: 20px;
 }
 
 ul {
 	list-style: none;
 	padding-left: 0;
 	margin: 0 0 1em 0;
+	width: 712px;
 }
 
 .module {

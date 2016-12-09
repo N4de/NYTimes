@@ -84,10 +84,24 @@ button {
 
 .header-right-buttons {
 	float: right;
+	margin-top: 8px;
 }
 
-.subscribe-button {
-	
+.header-right-buttons span {
+	color: #fff;
+}
+
+.blue-button {
+	background-color: #6288a5;
+}
+
+.settings-button {
+	margin-right: 30px;
+}
+
+.settings-icon {
+	background-image: url(https://a1.nyt.com/assets/article/20161206-111757/images/sprite/sprite-no-repeat.svg);
+	background-position: -494px -214px;
 }
 
 body {
@@ -331,7 +345,8 @@ strong {
 
 #whats-next {
 	margin-bottom: 20px;
-	width: 705px;
+	width: 715px;
+	display: inline-block;
 }
 
 #whats-next section {
@@ -409,7 +424,7 @@ a:link {
   font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;
 }
 
-li {
+.menu li {
 	width: 210px;
 	display: inline-block;
 	vertical-align: text-top;
@@ -422,7 +437,6 @@ ul {
 	list-style: none;
 	padding-left: 0;
 	margin: 0 0 1em 0;
-	width: 712px;
 }
 
 .module {
@@ -433,6 +447,14 @@ ul {
   margin: 0 0 45px 30px;
   border-top: 1px solid #ccc;
   padding-top: 10px;
+}
+
+aside ol {
+	list-style-type: decimal;
+}
+
+ol a {
+	min-height: 40px;
 }
 
 #whats-next li:nth-child(1) {
